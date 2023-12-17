@@ -1,6 +1,6 @@
 <?php
 
-namespace hakkahio\AzureSocialite;
+namespace quantumchaos\AzureSocialite;
 
 use Illuminate\Support\Facades\Facade;
 

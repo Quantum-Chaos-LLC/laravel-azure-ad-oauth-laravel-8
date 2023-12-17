@@ -1,6 +1,6 @@
 <?php
 
-namespace hakkahio\AzureSocialite;
+namespace quantumchaos\AzureSocialite;
 
 use Illuminate\Support\Arr;
 use Laravel\Socialite\Two\User;
