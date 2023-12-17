@@ -6,6 +6,7 @@ use Illuminate\Support\Arr;
 use Laravel\Socialite\Two\User;
 use Laravel\Socialite\Two\AbstractProvider;
 use Laravel\Socialite\Two\ProviderInterface;
+use Laravel\Socialite\Two\InvalidStateException;
 
 class AzureOauthProvider extends AbstractProvider implements ProviderInterface
 {
@@ -67,7 +68,6 @@ class AzureOauthProvider extends AbstractProvider implements ProviderInterface
             'id'                => $user['id'],
             'name'              => $user['displayName'],
             'email'             => $user['mail'],
-
             'businessPhones'    => $user['businessPhones'],
             'displayName'       => $user['displayName'],
             'givenName'         => $user['givenName'],
